@@ -120,3 +120,40 @@ nav {
 .nav__link--primary:hover {
   text-decoration: none;
 }
+
+/* LANDING */
+
+#landing {
+  background-color: rgba(115, 66, 214, 0.1);
+}
+
+header {
+  height: calc(100vh - 80px);
+}
+
+.header__container {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  height: 100%;
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__img--wrapper {
+  padding: 20px;
+  z-index: 2;
+}
+
+.header__img--wrapper img {
+  height: 100%;
+  max-height: 50vh;
+}
